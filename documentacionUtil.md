@@ -17,3 +17,6 @@ https://www.w3schools.com/cssref/css3_browsersupport.asp
 
 ##Nombre de colores
 https://www.w3schools.com/colors/colors_names.asp
+
+##Iconos Boostrap4
+https://getbootstrap.com/docs/4.0/extend/icons/
