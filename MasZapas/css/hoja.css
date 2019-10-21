@@ -1,17 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,100italic,300italic);
+/*Tipo de fuente de toda la página y grosor de la letra*/
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+/*Margen para la barra de navegación y cabeceras*/
+h1,h2,h3,h4,h5,ul {
+	margin: 0;
+}
+/*Tamaño general de la pagina*/
+.contenedor{
+	max-width: 1024px;
+    margin: 0 auto;
+    background-color: f2f2f2;
+}
+/*Pie de página*/
 footer{
     background-color: #404040;
     height: 200px;
 }
-.contenedor{
-    background-color: f2f2f2;
-}
-.contenedor>footer>p{
+/*Texto del pie de pagina centrado*/
+.contenedor>footer>address{
     text-align: center;
 }
+/*Contenedor de la derecha del pie de 
+página donde se va a contener los enlaces*/
 .enlaces{
     width: 50%;
-    height: 100%;
+    height: auto;
+    background-color: aqua;
+    margin-left: 50%;
 }
-footer>ul{
+/*Menu de navegación*/
+nav{
+	background-color: #b3ae9d;
+	text-align: center;
+}
+/*Poner en mayusculas y quitar puntos de la lista*/
+.menu{
+    text-transform: uppercase;
     list-style: none;
+}
+/*Pading de los 'Botones' de navegación*/
+.menu a div{
+	padding: 20px;
+}
+/*Quitar subrayado de el menu de navegación y color de la letra*/
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+/*Color al pasar el raton*/
+.menu :hover{
+	background-color: #CCC4A9;
+}
+/*Colocar en linea el menu de navegación*/
+ul ,li{
+    display: inline-block;
 }
