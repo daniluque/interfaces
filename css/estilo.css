@@ -1,3 +1,15 @@
-.cabecera> p{
+body{
+    margin: 0;
+}
+.cabecera1{
     text-align: center;
+    background-color: #333;
+}
+.cabecera2{
+    text-align: center;
+    background-color: rgb(219, 143, 143);
+}
+.cabecera3{
+    text-align: center;
+    background-color: rgb(24, 74, 83);
 }
